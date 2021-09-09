@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="codifica.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+	    <fileDesc>
+		    <titleStmt>
+				<title>Le prime tre conferenze all'Università</title>
+				<author xml:id="FDS">Ferdinand De Saussure</author>
+                <respStmt>
+                    <resp>Traduzione di</resp>
+                    <name xml:id="EF">Emanuele Fadda</name>
+                </respStmt>
+			</titleStmt>
+			<editionStmt>
+                <edition>Edizione digitale
+                    <date when="2021-09">Settembre 2021</date>
+                </edition>
+				<respStmt>
+					<resp>Edizione digitale coordinata da</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+				<respStmt>
+                    <resp>Codifica a cura di</resp>
+                    <name xml:id="EC">Ekaterina Chernysheva</name>
+                </respStmt>				
+			</editionStmt>
+			<publicationStmt>
+			    <publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+				<date when="2021-09">Settembre 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+			    <bibl>
+				    <title>Prolusioni, pagine 21-22</title>
+					<author>Ferdinand de Saussure</author>
+					<publisher>Biblioteca di Ginevra</publisher>
+					<pubPlace>Ginevra</pubPlace>
+				</bibl>
+				<msDesc>
+				    <msIdentifier>
+					    <country>Svizzera</country>
+						<settlement>Ginevra</settlement>
+						<repository>Biblioteca di Ginevra</repository>
+						<idno>BGE Ms. fr. 3951/1.1-3</idno>
+					</msIdentifier>
+					<msContents>
+					    <summary>Appunti per le prime tre conferenze all'Università di Ginevra</summary>
+						<textLang>Francese</textLang>
+					</msContents>
+					<physDesc>
+					    <objectDesc>
+						    <supportDesc>
+							     <support>
+						            <objectType>Pagine di appunti</objectType>
+							        <material>Carta</material>
+								</support>
+								<extent>
+								    <measure type="folio">2</measure>
+								</extent>
+                                <condition resp="#EC"> I fogli sono in buone condizioni fisiche, ma presentano delle macchie di inchiostro.</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+								<handNote ref="#FDS">
+										La mano è di <persName ref="#FDS">Ferdinand De Saussure</persName>
+								</handNote>
+						</handDesc>
+						<typeDesc>
+							<p>Il testo è scritto in corsivo</p>
+						</typeDesc>
+					</physDesc>
+					<history>
+					    <origin>
+						    <p>Il testo è scritto nel<origDate>1891</origDate></p>
+						</origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr">Francese</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+	    <surface n="1" xml:id="Pagina_21">
+		    <graphic url="Pagina21.jpg" width="3270px" height="4715px" />
+			<zone ulx="304" uly="235" lrx="622" lry="520" rendition="HotSpot" xml:id="Numero_21"/> <!-- numero di pagina -->
+			<zone ulx="639" uly="264" lrx="2891" lry="537" rendition="Line" xml:id="P21_riga_1" /> 
+			<zone ulx="611" uly="525" lrx="2911" lry="662" rendition="Line" xml:id="P21_riga_2" /> 
+			<zone ulx="624" uly="654" lrx="2887" lry="783" rendition="Line" xml:id="P21_riga_3"  /> 
+			<zone ulx="625" uly="793" lrx="2901" lry="901" rendition="Line" xml:id="P21_riga_4"  /> 
+			<zone ulx="630" uly="912" lrx="2874" lry="1065" rendition="Line" xml:id="P21_riga_5"  /> 
+			<zone ulx="565" uly="1055" lrx="2950" lry="1197" rendition="Line" xml:id="P21_riga_6"  /> 
+			<zone ulx="659" uly="1193" lrx="2904" lry="1305"  rendition="Line" xml:id="P21_riga_7"  /> 
+			<zone ulx="371" uly="1310" lrx="2909" lry="1446"  rendition="Line" xml:id="P21_riga_8"  /> 
+			<zone ulx="587" uly="1456" lrx="2907" lry="1628" rendition="Line" xml:id="P21_riga_9"  /> 
+			<zone ulx="544" uly="1598" lrx="2939" lry="1766" rendition="Line" xml:id="riga_10"  /> 
+			<zone ulx="664" uly="1766" lrx="2957" lry="1886" rendition="Line" xml:id="P21_riga_11"  /> 
+			<zone ulx="587" uly="1859" lrx="2973" lry="1987" rendition="Line" xml:id="P21_riga_12"  /> 
+			<zone ulx="581" uly="1985" lrx="2984" lry="2148" rendition="Line" xml:id="P21_riga_13"  /> 
+			<zone ulx="592" uly="2148" lrx="2968" lry="2428" rendition="Line" xml:id="P21_riga_14-15"  /> 
+			<zone ulx="675" uly="2404" lrx="2987" lry="2564"  rendition="Line" xml:id="P21_riga_16"  /> 
+			<zone ulx="683" uly="2553" lrx="2923" lry="2670"  rendition="Line" xml:id="P21_riga_17"  /> 
+			<zone ulx="591" uly="2727" lrx="2991" lry="2903" rendition="Line" xml:id="P21_riga_18"  /> 
+			<zone ulx="688" uly="2852" lrx="2907" lry="3033" rendition="Line" xml:id="P21_riga_19"  /> 
+			<zone ulx="687" uly="3023" lrx="2989" lry="3173" rendition="Line" xml:id="P21_riga_20"  /> 
+            <zone ulx="360" uly="3134" lrx="2989" lry="3278"  rendition="Line" xml:id="P21_riga_21"  /> 	
+			<zone ulx="328" uly="3260" lrx="2917" lry="3441" rendition="Line" xml:id="P21_riga_22"  /> 
+			<zone ulx="779" uly="3377" lrx="2911" lry="3531" rendition="Line" xml:id="P21_riga_23"  /> 	
+			<zone ulx="776" uly="3526" lrx="2867" lry="3692" rendition="Line" xml:id="P21_riga_24"  /> 
+			<zone ulx="736" uly="3670" lrx="2197" lry="3918" rendition="Line" xml:id="P21_riga_25"  /> 			
+			<zone ulx="349" uly="3850" lrx="787" lry="4208" rendition="HotSpot"  xml:id="THVP"/> <!--T.H.V.P.-->
+			<zone ulx="919" uly="3943" lrx="2903" lry="4067" rendition="Line" xml:id="P21_riga_26"  /> 
+			<zone ulx="771" uly="4093" lrx="2951" lry="4245" rendition="Line" xml:id="P21_riga_27"  /> 
+			<zone ulx="736" uly="4218" lrx="2895" lry="4316" rendition="Line" xml:id="P21_riga_28"  /> 
+			<zone ulx="433" uly="4347" lrx="2985" lry="4443" rendition="Line" xml:id="P21_riga_29"  /> 
+		</surface>
+		
+		<surface n="2" xml:id="Pagina_22">
+		
+		    <graphic url='Pagina22.jpg' width='3205 px' height='4663 px' />
+			<zone ulx="268" uly="281" lrx="600" lry="540" rendition="HotSpot" xml:id="Numero_22"/> 
+		    <zone ulx="659" uly="485" lrx="2733" lry="632" rendition="Line" xml:id="P22_riga_1" /> 
+			<zone ulx="707" uly="644" lrx="2707" lry="756" rendition="Line" xml:id="P22_riga_2" /> 
+			<zone ulx="767" uly="777" lrx="2851" lry="937" rendition="Line" xml:id="P22_riga_3" /> 
+			<zone ulx="721" uly="919" lrx="2799" lry="1075" rendition="Line" xml:id="P22_riga_4" /> 
+			<zone ulx="725" uly="1053" lrx="2805" lry="1205" rendition="Line" xml:id="P22_riga_5" /> 
+			<zone ulx="696" uly="1200" lrx="2736" lry="1325" rendition="Line" xml:id="P22_riga_6" /> 
+			<zone ulx="715" uly="1349" lrx="2792" lry="1477" rendition="Line" xml:id="P22_riga_7" /> 
+			
+			<zone ulx="704" uly="1469" lrx="2752" lry="1640"  rendition="Line" xml:id="P22_riga_8" /> 
+			<zone ulx="711" uly="1669" lrx="2777" lry="1795" rendition="Line" xml:id="P22_riga_9" /> 
+			<zone ulx="715" uly="1800" lrx="2688" lry="1925" rendition="Line" xml:id="P22_riga_10" /> 
+			
+			<zone ulx="437" uly="1941" lrx="2747" lry="2082" rendition="Line" xml:id="P22_riga_11" /> 
+            <zone ulx="736" uly="2114" lrx="2736" lry="2232" rendition="Line" xml:id="P22_riga_12" /> 
+			<zone ulx="269" uly="2245" lrx="2792" lry="2501" rendition="Line" xml:id="P22_riga_13" /> 
+			
+			<zone ulx="867" uly="2453" lrx="2743" lry="2597" rendition="Line" xml:id="P22_riga_14" /> 
+			<zone ulx="841" uly="2607" lrx="2793" lry="2769" rendition="Line" xml:id="P22_riga_15" /> 
+			<zone ulx="791" uly="2755" lrx="2803" lry="2893" rendition="Line" xml:id="P22_riga_16" /> 
+			<zone ulx="419" uly="2921" lrx="2873" lry="3065" rendition="Line" xml:id="P22_riga_17" /> 
+			<zone ulx="805" uly="3075" lrx="2843" lry="3205" rendition="Line" xml:id="P22_riga_18" /> 
+			<zone ulx="771" uly="3194" lrx="2899" lry="3322" rendition="Line" xml:id="P22_riga_19" /> 
+			<zone ulx="459" uly="3346" lrx="2877" lry="3498" rendition="Line" xml:id="P22_riga_20" /> 
+			
+			<zone ulx="795" uly="3509" lrx="2795" lry="3634" rendition="Line" xml:id="P22_riga_21" /> 
+			<zone ulx="779" uly="3682" lrx="2875" lry="3800" rendition="Line" xml:id="P22_riga_22" /> 
+			<zone ulx="819" uly="3833" lrx="2821" lry="3961"  rendition="Line" xml:id="P22_riga_23"/> 
+			<zone ulx="859" uly="3965" lrx="2853" lry="4130" rendition="Line" xml:id="P22_riga_24" />
+			<zone ulx="835" uly="4112" lrx="2861" lry="4242" rendition="Line" xml:id="P22_riga_25" />
+			
+			<zone ulx="821" uly="4256" lrx="2819" lry="4384" rendition="Line" xml:id="P22_riga_26" />		
+		
+		</surface>
+	</facsimile>
+	<text type="manuscript" xml:id="pagine_21-22" xml:lang="fr">
+		<body>
+			<pb xml:id="Pag-21" n="21" facs="#Pagina_21" />
+			<div type="page" n="21">
+				<ab type="pericope" n="1" xml:id="P21_per_1">
+						
+					<lb xml:id="Pagina_21_riga_1" n="1" facs="#P21_riga_1" />
+					Le <emph rend="underline">premier aspect</emph> <add place="above" resp="#FDS"> en effet </add>sous lequel <subst><del rend="overstrike">se présente l’idée</del><add place="above"><del rend="overstrike">doit être</del></add></subst>
+
+                    <lb xml:id="Pagina_21_riga_2" n="2" facs="#P21_riga_2" />
+                    doit être envisagée l’<term ref="#IDEA">idée</term> d'<emph rend="underline"><term ref="#STORIA">Histoire</term></emph> quand il s'agit
+
+	                <lb xml:id="Pagina_21_riga_3" n="3" facs="#P21_riga_3" />
+                    de la <term ref="#LANGUE">langue</term> ou la première chose qui <emph rend="underline">fait</emph> que la
+
+                    <lb xml:id="Pagina_21_riga_4" n="4" facs="#P21_riga_4" />
+                    <term ref="#LANGUE">langue</term> a une <term ref="#STORIA">histoire</term>, c'est le <term ref="#FF">fait <del rend="overstrike">de sa</del>
+
+					<lb xml:id="Pagina_21_riga_5" n="5" facs="#P21_riga_5" />
+					<del rend="overstrike">continui</del>fondamental</term> de sa <emph rend="underline"><term ref="#CONT">continuité</term></emph>
+						
+					<lb xml:id="Pagina_21_riga_6" n="6" facs="#P21_riga_6" />
+					<emph rend="underline">dans le <term ref="#TEMPO">temps</term>; </emph> - je ne dis pas, veuillez le remarquer,
+						
+					<lb xml:id="Pagina_21_riga_7" n="7" facs="#P21_riga_7" />
+					de sa <emph rend="underline"><term ref="#FIX">fixité</term></emph>, dont nous parlerons tout à l'heure, <emph rend="underline">mais</emph> de sa <emph rend="underline"><term ref="#CONT">continuité</term></emph>.
+                </ab>	
+						
+                <ab type="pericope" n="2" xml:id="P21_per_2">	
+										
+					<subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FDS">Il vaut la </add></subst>
+					<lb xml:id="Pagina_21_riga_8" n="8" facs="#P21_riga_8" />
+					<add place="left" resp="#FDS">peine<add place="above" resp="#FDS"> de</add></add> 
+					nous <add place="above" resp="#FDS">arrêter</add> un instant <subst><del rend="overstrike">à</del> <add place="above" resp="#FDS">devant</add></subst>
+					ce <term ref="#PRIN">principe</term>, <subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FDS">élémentaire et essentiel</add></subst> de la
+						
+					<lb xml:id="Pagina_21_riga_9" n="9" facs="#P21_riga_9" />
+					<emph rend="underline"><term ref="#CONT">continuité</term></emph> ou de <emph rend="underline">l’<term ref="#ININTER">ininterruption</term></emph> forcée <gap extent="1 word" reason="deleted" />
+						
+					<lb xml:id="Pagina_21_riga_10" n="10" facs="#P21_riga_10" />
+					qui <subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del><add place="above"><gap extent="2 words" reason="deleted" /></add></subst>
+					<add place="above" resp="#FDS">est</add> <add place="left" resp="#FDS">le <term ref="#PRIMO">premier</term> <term ref="#CAR">caractère</term> ou la <term ref="#PRIMO">première</term> <term ref="#LEGGE">loi</term></add> 
+					de la <term ref="#TRASM">transmission</term> du <add place="above" resp="#FDS"><gap extent="1 word" reason="deleted" /></add><term ref="#PU">parler humain</term>
+					
+					<!-- riga cancellata -->
+						
+					<lb xml:id="Pagina_21_riga_12" n="12" facs="#P21_riga_12" />
+					<add place="above" resp="#FDS">et cela</add> quelles que soient, autour de la <term ref="#LANGUE">langue</term>, les <w>révolu<pc force="weak">-</pc>
+						
+					<lb xml:id="Pagina_21_riga_13" n="13" facs="#P21_riga_13" />
+					<pc force="weak">=</pc>tions</w> <add place="above" resp="#FDS">et les secousses</add> de tout genre qui peuvent <!-- spazio cancellato -->
+						
+					<lb xml:id="Pagina_21_riga_14-15" n="14" facs="#P21_riga_14-15" />
+					<gap extent="2 lines" reason="deleted" />
+						
+					<lb xml:id="Pagina_21_riga_16" n="16" facs="#P21_riga_16" />
+					changer <subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FDS">toutes les</add></subst> conditions. 
+						
+				</ab>
+						
+				<ab type="pericope" n="3" xml:id="P21_per_3">
+				
+					Qu<del rend="overstrike">e</del>'un peuple 
+					<lb xml:id="Pagina_21_riga_17" n="17" facs="#P21_riga_17" />
+					vive paisible au fond d'une vallée retirée,
+						
+					<lb xml:id="Pagina_21_riga_18" n="18" facs="#P21_riga_18" />
+					qu'il soit <subst><del rend="overstrike" resp="#FDS"><gap extent="3 words" reason="deleted" /></del> <add place="above" resp="#FDS">un peuple agriculteur, guerrier, nomade</add></subst>, qu'il
+						
+					<lb xml:id="Pagina_21_riga_19" n="19" facs="#P21_riga_19" />
+					<gap extent="1 words" reason="deleted" />change <add place="above" resp="#FDS">subitement</add> de <subst><del rend="overstrike" resp="#FDS"><gap extent="3 words" reason="deleted" /></del><add place="above" resp="#FDS">religion, d<del rend="overstrike">e</del>'<term ref="#IDEA">idées</term>,</add></subst> d'état <term ref="#SOC">social</term> et
+						
+					<lb xml:id="Pagina_21_riga_20" n="20" facs="#P21_riga_20" />
+					de civilisation, qu'il change de patrie et de climat, 
+					
+						
+					<lb xml:id="Pagina_21_riga_21" n="21" facs="#P21_riga_21" />
+					qu'il change même de <emph rend="underline"><term ref="#LANGUE">langue</term></emph>, - car alors il <subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FDS"> ne fera que continuer en l'adoptant </add></subst>celle d'un autre peuple <ptr target="#P21_Nota38" />-
+						
+					<lb xml:id="Pagina_21_riga_22" n="22" facs="#P21_riga_22" />
+					<emph rend="underline">jamais et nulle part</emph> <gap extent="2 words" reason="deleted" /> on ne connaît pas <term ref="#STOR">historiquement</term> de rupture
+									
+					<lb xml:id="Pagina_21_riga_23" n="23" facs="#P21_riga_23" />
+					dans la trame <subst><del rend="overstrike" resp="#FDS"><gap extent="2 words" reason="deleted" /></del><add place="above" resp="#FDS">continue du</add></subst> <term ref="#LANGUAGE">langage</term>, et on ne
+						
+					<lb xml:id="Pagina_21_riga_24" n="24" facs="#P21_riga_24" />
+					peut logiquement et <emph rend="underline">a priori</emph> concevoir qu'il
+						
+					<lb xml:id="Pagina_21_riga_25" n="25" facs="#P21_riga_25" />
+					puisse jamais <add place="below" resp="#FDS">et nulle part</add> s'en produire<ptr target="#P21_Nota39" />.
+					
+					<lb xml:id="T_H_V_P" n="26" facs="#THVP" />
+					<abbr>T.H.V.P.</abbr>
+							
+				</ab>
+						
+				<ab type="pericope" n="4" xml:id="P21_per_4">
+						
+					<lb xml:id="Pagina_21_riga_26" n="26" facs="#P21_riga_26" />
+					Lorsque nous considérons un certain
+						
+					<lb xml:id="Pagina_21_riga_27" n="27" facs="#P21_riga_27" />
+					<term ref="#SdL">état de langue</term> comme le français du XIXe siècle,
+						
+					<lb xml:id="Pagina_21_riga_28" n="28" facs="#P21_riga_28" />
+					et un certain état de langue antérieur, comme
+						
+					<lb xml:id="Pagina_21_riga_29" n="29" facs="#P21_riga_29" />
+					<choice><abbr resp="#FDS">p.ex</abbr><expan>par exemple</expan></choice> le latin du siècle d'Auguste, nous sommes frap<pc force="weak">=</pc>
+                </ab>							
+			</div>
+			
+			
+			<pb xml:id="Pag-22" n="22" facs="#Pagina_22" />
+			<div type="page" n="22">
+			    <ab type="pericope" n="4" corresp="#P21_per_4">
+				
+				    <lb xml:id="Pagina_22_riga_1" n="1" facs="#P22_riga_1" />
+					<pc force="weak">=</pc>pes au premier moment par la grande
+					
+					<lb xml:id="Pagina_22_riga_2" n="2" facs="#P22_riga_2" />
+					<gap reason="deleted" extent="1 word" /><term ref="#DIST">distance</term> qui les sépare,
+					
+					<lb xml:id="Pagina_22_riga_3" n="3" facs="#P22_riga_3" />
+					et nous sommes, je <add place="above" resp="#FDS">m'empresse de </add>l'ajouter, beaucoup
+					
+					<lb xml:id="Pagina_22_riga_4" n="4" facs="#P22_riga_4" />
+					plus frappés encore par la <w>dénomina<pc force="weak">-</pc>
+					
+					<lb xml:id="Pagina_22_riga_5" n="5" facs="#P22_riga_5" />
+					<pc force="weak">=</pc>tion</w> <term ref="#DIF">différente</term> qu'on est convenu
+					
+					<lb xml:id="Pagina_22_riga_6" n="6" facs="#P22_riga_6" />
+					de leur donner en appelant ceci
+					
+					<lb xml:id="Pagina_22_riga_7" n="7" facs="#P22_riga_7" />
+                    <emph rend="underline">latin</emph> et cela <emph rend="underline">français</emph>.
+					
+				</ab>
+				
+				<ab type="pericope" n="5" xml:id="P22_per_1">
+				
+				    Nous nous 
+					<lb xml:id="Pagina_22_riga_8" n="8" facs="#P22_riga_8" />
+					figurons alors assez volontiers qu'il
+					
+					<lb xml:id="Pagina_22_riga_9" n="9" facs="#P22_riga_9" />
+					y a deux choses, dont l'une a pris
+					
+					<lb xml:id="Pagina_22_riga_10" n="10" facs="#P22_riga_10" />
+					la <term ref="#SUC">succession</term> de l'autre<ptr target="#P21_Nota40" />.
+				
+				</ab>
+				
+				<ab type="pericope" n="6" xml:id="P22_per_2">
+				
+					<add place="above" resp="#FDS">Or</add> qu'il y ait 
+					<lb xml:id="Pagina_22_riga_11" n="11" facs="#P22_riga_11" />
+					<del rend="overstrike" resp="#FDS">une</del><emph rend="underline"><term ref="#SUC">succession</term></emph>, c'est là ce qui 
+					est <add place="above" resp="#FDS"><gap atLeast="1" atMost="2" unit="words" reason="illegible" /> </add>indubitable et évident,
+					
+					<lb xml:id="Pagina_22_riga_12" n="12" facs="#P22_riga_12" />
+					mais qu'il y ait deux choses <add place="above" resp="#FDS"> dans cette <term ref="#SUC">succession</term><ptr target="#P21_Nota41" />,</add> c'est ce qui
+										
+					<lb xml:id="Pagina_22_riga_13" n="13" facs="#P22_riga_13" />
+					est <subst><del rend="overstrike" resp="#FDS"><gap extent="3 words" reason="deleted" /></del> <add place="above" resp="#FDS">faux,</add></subst>
+					<subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FDS">radicalement</add></subst> 
+					<add place="below" resp="#FDS"><gap extent="1 word" reason="deleted" /></add>
+					faux, et <add place="left" resp="#FDS">dangereusement faux, du <term ref="#PdV">point de vue</term> de toutes les conceptions qui s'ensuivent.</add>
+					
+				</ab>
+				
+				<ab type="pericope" n="7" xml:id="P22_per_3">
+				
+					<lb xml:id="Pagina_22_riga_14" n="14" facs="#P22_riga_14" />
+					Il suffit <gap extent="2 words" reason="deleted" /> d'y réfléchir un
+					
+					<lb xml:id="Pagina_22_riga_15" n="15" facs="#P22_riga_15" />
+					instant, <gap extent="8 words" reason="deleted" />
+					
+					<lb xml:id="Pagina_22_riga_16" n="16" facs="#P22_riga_16" />
+					<gap extent="1 line" reason="deleted" />
+					
+					<lb xml:id="Pagina_22_riga_17" n="17" facs="#P22_riga_17" />
+					<add place="left" resp="#FDS"><subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FDS">puisque</add></subst></add>
+					<gap extent="5 words" reason="deleted" /> tout est contenu
+					
+					<lb xml:id="Pagina_22_riga_18" n="18" facs="#P22_riga_18" />
+					dans cette simple observation: chaque
+										
+					<lb xml:id="Pagina_22_riga_19" n="19" facs="#P22_riga_19" />
+					individu <subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del><add place="above"> emploie </add></subst> le lendemain le même
+					
+					<lb xml:id="Pagina_22_riga_20" n="20" facs="#P22_riga_20" />
+					<subst><del rend="overstrike" resp="#FDS"><gap extent="1 word" reason="deleted" /></del><add place="left"><term ref="#IDIOMA">idiome</term></add></subst>
+					qu'il parlait la veille <add place="above" resp="#FDS">et cela s'est toujours vu</add>.
+				
+				</ab>
+				
+				<ab type="pericope" n="8" xml:id="P22_per_4">
+				
+					Il n'y 
+					<lb xml:id="Pagina_22_riga_21" n="21" facs="#P22_riga_21" />
+					a <add place="above" resp="#FDS">donc</add> eu aucun jour où on ait pu
+					
+					<lb xml:id="Pagina_22_riga_22" n="22" facs="#P22_riga_22" />
+					dresser l'acte de décès de la <term ref="#LANGUE">langue</term> latine,
+					
+					<lb xml:id="Pagina_22_riga_23" n="23" facs="#P22_riga_23" />
+					et il n'y a eu <gap extent="1 word" reason="deleted" /> également aucun jour
+					
+					<lb xml:id="Pagina_22_riga_24" n="24" facs="#P22_riga_24" />
+					où on ait pu enregistrer la naissance
+					
+					<lb xml:id="Pagina_22_riga_25" n="25" facs="#P22_riga_25" />
+				    de la <term ref="#LANGUE">langue</term> française. <ptr target="#P21_Nota42" />
+					
+				</ab>
+				
+				<ab type="pericope" n="9" xml:id="P22_per_5">
+				
+				    Il n'est jamais 
+				    <lb xml:id="Pagina_22_riga_26" n="26" facs="#P22_riga_26" />
+					arrivé que les <gap extent="3 words" reason="deleted" />
+				
+				</ab>
+			
+			</div>
+			<div type="translation" xml:id="testo_it_21" xml:lang="it">
+				
+				<ab n="1" corresp="#P21_per_1" xml:lang="it">
+					In effetti, il primo aspetto sotto il quale deve
+                    essere vista l’idea di Storia quando si tratta della
+                    lingua, o la prima cosa che fa sì che la lingua abbia
+                    una storia, è il fatto fondamentale della sua
+                    continuità nel tempo; non dico, vogliatelo notare,
+                    della sua fissità, di cui parleremo tra pochissimo, ma
+                    della sua continuità.
+				</ab>
+					
+			    <ab n="2" corresp="#P21_per_2" xml:lang="it">
+					Vale la pena di fermarci un
+                    istante davanti a questo principio, elementare ed
+                    essenziale, della continuità o dell’ininterruzione
+                    forzata che è il primo carattere o la prima legge 
+					della trasmissione del parlare umano, e ciò quali che
+                    siano, intorno alla lingua, le rivoluzioni e le scosse
+                    di ogni genere che possono cambiare tutte le condizioni.
+				</ab>
+					
+				<ab n="3" corresp="#P21_per_3" xml:lang="it">
+					Per quanto un popolo viva pacifico
+                    in fondo a una valle ritirata, o sia un popolo
+                    agricoltore, guerriero, nomade, o cambi d’un tratto
+                    religione, idee, stato sociale e civiltà, o cambi patria
+                    e clima, e infine cambi anche lingua, – giacché in tal
+                    caso non farà che continuare, adottandola, quella di
+                    un altro popolo – mai e da nessuna parte si conosce
+                    storicamente una rottura nella trama continua del
+                    linguaggio, e non si può logicamente e a priori
+                    concepire che ciò possa mai o da qualche parte accadere.
+				</ab>
+					
+				<ab n="4" corresp="#P21_per_4" xml:lang="it">
+					Quando consideriamo un certo stato di lingua
+                    come il francese del XIX secolo, e uno stato di
+                    lingua anteriore, come per esempio il latino del
+                    secolo d’Augusto, siamo colpiti					
+				</ab>
+			</div>
+			
+            <div type="translation" xml:id="testo_it_22" xml:lang="it">				
+			    <ab n="5" corresp="#P22_per_1" xml:lang="it">
+				    in un primo momento dalla grande distanza che li separa, e
+                    siamo, mi affretto ad aggiungerlo, colpiti ancora di
+                    più dalla denominazione differente che si è
+                    convenuto di dargli, chiamando questo latino e
+                    quello francese.
+				</ab>
+               
+			    <ab n="6" corresp="#P22_per_2" xml:lang="it">
+				    Allora ci figuriamo abbastanza
+                    volentieri che vi sono due cose, di cui l’una ha
+                    assunto la successione dell’altra.
+				</ab>
+				
+				<ab n="7" corresp="#P22_per_3" xml:lang="it">
+				    Ora, che ci sia successione, questo è indubitabile ed evidente, ma
+                    che ci siano due cose in questa successione, ecco ciò
+                    che è falso, radicalmente falso, e pericolosamente
+                    falso, dal punto di vista di tutte le concezioni che ne seguono.
+				</ab>
+				
+				<ab n="8" corresp="#P22_per_4" xml:lang="it">
+				    Basta rifletterci un istante, perché tutto
+                    è contenuto nella seguente, semplice osservazione:
+                    ogni individuo usa l’indomani la stessa lingua che
+                    parlava il giorno prima, e questo è ciò che abbiamo
+                    sempre visto.
+				</ab>
+				
+				<ab n="9" corresp="#P22_per_5" xml:lang="it">
+				    Non è mai capitato che le
+				</ab>
+				
+            </div>			
+		</body>	
+        <back>
+		    <div>
+		        <list type="terminology">
+				
+				    <label>
+					    <term xml:id="IDEA" xml:lang="fr">Idée</term>
+						<term ref="#IDEA" xml:lang="it">Idea</term>
+					</label>					
+					<item>
+					    <gloss target="#IDEA" xml:lang="it" source="https://www.treccani.it/vocabolario/idea/">
+						    Nel <choice><abbr>sign.</abbr><expan>significato</expan></choice> più ampio e generico, ogni singolo contenuto del pensiero, ogni entità mentale,
+							e più in <choice><abbr>partic.</abbr><expan>particolare</expan></choice> la rappresentazione di un oggetto alla mente, la nozione che la mente 
+							si forma o riceve di una cosa reale o immaginaria						
+						</gloss>				
+					</item>
+				
+				    <label>
+					    <term xml:id="STORIA" xml:lang="fr">Histoire</term>
+						<term ref="#STORIA" xml:lang="it">Storia</term>
+					</label>	
+					<item>
+					    <gloss target="#STORIA" xml:lang="it" source="https://www.treccani.it/vocabolario/storia/">
+						    Esposizione ordinata di fatti e avvenimenti umani del passato, quali risultano da un’indagine critica volta ad accertare sia la verità di essi,
+							sia le connessioni reciproche per cui è lecito riconoscere in essi un’unità di sviluppo.					
+						</gloss>				
+					</item>	
+
+				    <label>
+					    <term xml:id="LANGUE" xml:lang="fr">Langue</term>
+						<term ref="#LANGUE" xml:lang="it">Lingua</term>
+					</label>	
+					<item>
+					    <gloss target="#LANGUE" xml:lang="it" source="https://www.treccani.it/vocabolario/langue/">
+						    In <choice><abbr>partic.</abbr><expan>particolare</expan></choice>, nella linguistica di <persName role="linguist" ref="FdS"> F. de Saussure </persName> e delle scuole che ne derivano, il termine 
+							(che in questa accezione è di uso internazionale) designa la lingua, ossia il linguaggio, come insieme di sistemi collegati gli uni agli altri,
+							i cui elementi (fonemi, parole, ecc.) hanno valore soltanto nelle relazioni di equivalenza e di opposizione che li collegano; 
+							come tale, la langue è una convenzione sociale, che consente agli individui di una comunità di comunicare tra loro, e si contrappone alla parole, 
+							che è invece l’atto individuale con cui il soggetto parlante realizza la propria facoltà del linguaggio.					
+						</gloss>				
+					</item>
+					
+				    <label>
+					    <term xml:id="FF" xml:lang="fr">Fait fondamental</term>
+						<term ref="#FF" xml:lang="it">Fatto fondamentale</term>
+					</label>	
+					<item>
+					    <gloss target="#FF" xml:lang="it" resp="EC">
+						    Il fatto importante.					
+						</gloss>				
+					</item>	
+					
+				    <label>
+					    <term xml:id="CONT" xml:lang="fr">Continuité </term>
+						<term ref="#CONT" xml:lang="it">Continuità</term>
+					</label>	
+					<item>
+					    <gloss target="#CONT" xml:lang="it" source="https://www.treccani.it/vocabolario/continuita/">
+						    Qualità d’esser continuo, estensione non interrotta nel tempo, o anche nello spazio.					
+						</gloss>				
+					</item>	
+					
+				    <label>
+					    <term xml:id="TEMPO" xml:lang="fr">Temps </term>
+						<term ref="#TEMPO" xml:lang="it">Tempo</term>
+					</label>	
+					<item>
+					    <gloss target="#TEMPO" xml:lang="it" source="https://www.treccani.it/vocabolario/tempo/">
+						    L’intuizione e la rappresentazione della modalità secondo la quale i singoli eventi si susseguono e sono in rapporto l’uno con l’altro.					
+						</gloss>				
+					</item>	
+					
+				    <label>
+					    <term xml:id="FIX" xml:lang="fr">Fixité </term>
+						<term ref="#FIX" xml:lang="it">Fissità</term>
+					</label>	
+					<item>
+					    <gloss target="#FIX" xml:lang="it" source="https://www.treccani.it/vocabolario/fissita/">
+						    L’essere fisso, fermo, detto soprattutto dello sguardo o del pensiero.				
+						</gloss>				
+					</item>	
+					
+				    <label>
+					    <term xml:id="PRIN" xml:lang="fr">Principe </term>
+						<term ref="#PRIN" xml:lang="it">Principio</term>
+					</label>	
+					<item>
+					    <gloss target="#PRIN" xml:lang="it" source="https://www.treccani.it/vocabolario/principio/">
+						    Concetto, affermazione, enunciato che forma uno dei fondamenti di una dottrina, di una scienza o di una disciplina,
+							di un particolare sistema, o che, più semplicemente, sta alla base di un ragionamento, di una convinzione.				
+						</gloss>				
+					</item>	
+					
+				    <label>
+					    <term xml:id="ININTER" xml:lang="fr">Ininterruption </term>
+						<term ref="#ININTER" xml:lang="it">Ininterruzione</term>
+					</label>	
+					<item>
+					    <gloss target="#ININTER" xml:lang="it" resp="#EC">
+						    Contrario a <term xml:id="INTER" xml:lang="it">Interruzione</term>
+                                            <gloss target="#INTER" xml:lang="it" source="https://www.treccani.it/vocabolario/interruzione/">
+											    L’azione, il fatto d’interrompere o d’interrompersi, e più spesso l’effetto, cioè la sospensione
+												o la cessazione nella durata, la soluzione di continuità di azioni, processi, fenomeni, o anche, 
+												in senso spaziale, di luoghi e cose materiali
+                                            </gloss>											
+						</gloss>				
+					</item>
+					
+				    <label>
+					    <term xml:id="PRIMO" xml:lang="fr">Premier </term>
+						<term ref="#PRIMO" xml:lang="it">Primo</term>
+					</label>	
+					<item>
+					    <gloss target="#PRIMO" xml:lang="it" source="https://www.treccani.it/vocabolario/primo/">
+						    Numerale ordinale che, con il suo normale uso di <choice><abbr>agg.</abbr><expan>aggettivo</expan></choice>, 
+							è attribuito a persona, animale o cosa (concreta o astratta) che, nella sequenza, nella serie o nel gruppo di cui fa parte,
+							precede altre persone o animali o cose (simili o analoghe) e non è da altre preceduta, 
+							sia in senso spaziale (con riguardo alla collocazione, alla disposizione, al movimento, alla successione), 
+							sia in senso temporale, sia con riferimento alla posizione in elenchi, classifiche, graduatorie.				
+						</gloss>				
+					</item>	
+
+				    <label>
+					    <term xml:id="CAR" xml:lang="fr">Caractère </term>
+						<term ref="#CAR" xml:lang="it">Carattere</term>
+					</label>	
+					<item>
+					    <gloss target="#CAR" xml:lang="it" source="https://www.treccani.it/vocabolario/carattere/">
+						    Segno distintivo, qualità propria che contraddistingue una persona, un organismo, un fenomeno collettivo, una cosa, da altri.				
+						</gloss>				
+					</item>						
+						
+					
+				    <label>
+					    <term xml:id="LEGGE" xml:lang="fr">Loi </term>
+						<term ref="#LEGGE" xml:lang="it">Legge</term>
+					</label>	
+					<item>
+					    <gloss target="#LEGGE" xml:lang="it" source="https://www.treccani.it/vocabolario/legge/">
+						    In generale, ogni principio con cui si enunci o si riconosca l’ordine che si riscontra nella realtà naturale o umana,
+							e che nello stesso tempo si ponga come guida di comportamenti in armonia con tale realtà.
+						</gloss>				
+					</item>	
+
+				    <label>
+					    <term xml:id="TRASM" xml:lang="fr">Transmission </term>
+						<term ref="#TRASM" xml:lang="it">Trasmissione</term>
+					</label>	
+					<item>
+					    <gloss target="#TRASM" xml:lang="it" source="https://www.treccani.it/vocabolario/trasmissione/">
+						    In genere, l’operazione, l’azione, il fatto di trasmettere.
+						</gloss>				
+					</item>		
+
+				    <label>
+					    <term xml:id="PU" xml:lang="fr">Parler humain</term>
+						<term ref="#PU" xml:lang="it">Parlare umano</term>
+					</label>	
+					<item>
+					    <gloss target="#PU" xml:lang="it" source="https://www.treccani.it/vocabolario/linguaggio/">
+						    Comunicare informazioni, ispirare sentimenti, esercitare suggestioni varie.
+						</gloss>				
+					</item>					
+					
+				    <label>
+					    <term xml:id="SOC" xml:lang="fr">Social</term>
+						<term ref="#SOC" xml:lang="it">Sociale</term>
+					</label>	
+					<item>
+					    <gloss target="#SOC" xml:lang="it" source="https://www.treccani.it/vocabolario/sociale/">
+						    Che riguarda la società umana, che ha attinenza con la vita dell’uomo in quanto partecipe di una comunità nella quale ha,
+							o dovrebbe avere, sostanziale diritto di parità rispetto agli altri membri.
+						</gloss>				
+					</item>
+					
+				    <label>
+					    <term xml:id="STOR" xml:lang="fr">Historiquement</term>
+						<term ref="#STOR" xml:lang="it">Storicamente</term>
+					</label>	
+					<item>
+					    <gloss target="#STOR" xml:lang="it" source="https://www.treccani.it/vocabolario/storico/">
+						    Con fondamenti e fini storici; secondo una prospettiva storica, sotto l’aspetto storico.
+						</gloss>				
+					</item>		
+
+				    <label>
+					    <term xml:id="LANGAGE" xml:lang="fr">Langage</term>
+						<term ref="#LANGAGE" xml:lang="it">Linguaggio</term>
+					</label>	
+					<item>
+					    <gloss target="#LANGUAGE" xml:lang="it" source="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure">
+						    Saussure intende il linguaggio (language) come potenzialità universale di sviluppare un sistema di segni.
+						</gloss>
+					</item>	
+
+				    <label>
+					    <term xml:id="SdL" xml:lang="fr">État de langue</term>
+						<term ref="#SdL" xml:lang="it">Stato di lingua</term>
+					</label>	
+					<item>
+					    <gloss target="#SdL" xml:lang="it" source="#CLG">
+						    Lo stato di lingua è uno spazio di tempo più o meno lungo durante il quale la somma delle modificazioni sopravvenute è minima.
+						</gloss>
+					</item>	
+
+				    <label>
+					    <term xml:id="DIST" xml:lang="fr">Distance</term>
+						<term ref="#DIST" xml:lang="it">Distanza</term>
+					</label>	
+					<item>
+					    <gloss target="#DIST" xml:lang="it" source="https://www.treccani.it/vocabolario/distanza/">
+						    La lunghezza del tratto di linea retta (nell’ordinario spazio euclideo, altrimenti del tratto di geodetica) 
+							che congiunge due punti (e che s’identifica col concetto del minimo percorso tra questi), o, più genericamente,
+							la lunghezza del percorso fra due luoghi, due oggetti, due persone.
+						</gloss>
+					</item>	
+
+				    <label>
+					    <term xml:id="DIF" xml:lang="fr">Différente</term>
+						<term ref="#DIF" xml:lang="it">Differente</term>
+					</label>	
+					<item>
+					    <gloss target="#DIF" xml:lang="it" source="https://www.treccani.it/vocabolario/differente/">
+						    Che ha natura o qualità dissimili da quelle di un altro oggetto o persona con cui è confrontato.
+						</gloss>
+					</item>
+
+				    <label>
+					    <term xml:id="SUC" xml:lang="fr">Succession</term>
+						<term ref="#SUC" xml:lang="it">Successione</term>
+					</label>	
+					<item>
+					    <gloss target="#SUC" xml:lang="it" source="https://www.treccani.it/vocabolario/successione/">
+						    Il susseguirsi nel tempo di avvenimenti e fenomeni.
+						</gloss>
+					</item>
+
+				    <label>
+					    <term xml:id="PdV" xml:lang="fr">Point de vue</term>
+						<term ref="#PdV" xml:lang="it">Punto di vista</term>
+					</label>	
+					<item>
+					    <gloss target="#PdV" xml:lang="it" source="https://www.treccani.it/vocabolario/vista/">
+						    Il punto dal quale si immagina osservato l’oggetto, il paesaggio, la scena che si rappresenta; in senso 
+							<choice><abbr>fig.</abbr><expan>figurativo</expan></choice>,
+							il modo soggettivo di vedere i fatti, le situazioni e i problemi, e quindi di intendere, di valutare.
+						</gloss>
+					</item>	
+
+				    <label>
+					    <term xml:id="IDIOMA" xml:lang="fr">Idiome</term>
+						<term ref="#IDIOMA" xml:lang="it">Idioma</term>
+					</label>	
+					<item>
+					    <gloss target="#PdV" xml:lang="it" source="https://it.wiktionary.org/wiki/idioma">
+						    Forma di linguaggio peculiare di una nazione, regione o popolo.
+						</gloss>
+					</item>						
+		        </list>
+				
+				<list type="notes">
+				    
+					<item n="38">
+					<note xml:id="P21_Nota38" source="#LMS" resp="#EF">
+					    È chiaro che la lingua A, se pure acquista nuovi parlanti (perché <choice><abbr>p. es.</abbr><expan>per esempio</expan></choice> appartenenti a una nazione colonizzata) resta la lingua A,
+						e che questi nuovi parlanti contribuiranno con il loro <term ref="#PU" xml:lang="it">parler</term> ad assicurarne la continuità e l’evoluzione, magari in una varietà particolare.					
+				    </note>
+					</item>
+					
+					<item n="39">
+					<note xml:id="P21_Nota39" source="#LMS" resp="#EF">
+					    Se si fa riferimento a una particolare lingua, l’affermazione saussuriana non sarebbe completamente accettabile: infatti non è possibile che tutti i parlanti di una
+                        lingua – se non muoiono o non subiscono danni biologici particolari – smettano d’un tratto di parlare qualsiasi lingua, ma è possibile almeno concepire in linea di principio
+                        che una lingua si estingua perché tutti i parlanti ne adottano un’altra. Lo stesso Saussure, del resto, parla più sotto di una tale eventualità come di un “cas qui s’est
+                        cent fois répété dans l’histoire”.
+					</note>
+					</item>
+					
+					<item n="40">
+					<note xml:id="P22_Nota40" source="#LMS" resp="#EF">
+					    Mantengo il termine ‘successione’ – che ha un’accezione simile anche in italiano, 
+						<choice><abbr>p. es.</abbr><expan>per esempio</expan></choice> quando si parla di “successione al trono” – in quanto viene ripreso nella
+                        frase successiva, e risulta assolutamente fondamentale per tutto ciò che segue.
+					</note>
+					</item>
+					
+					<item n="41">
+					<note xml:id="P22_Nota41" source="#LMS" resp="#EF">
+					    È da notare che l’edizione Gallimard corregge in succession – giustamente, a mio
+                        avviso – la lezione science che si trova in <term ref="#CLG">CLG</term>/E.
+					</note>
+					</item>
+					
+					<item n="42">
+					<note xml:id="P22_Nota42" source="#LMS" resp="#EF">
+					    Ancora una volta, la continuità del <term ref="#PU" xml:lang="it">parler</term> come “carburante” della lingua, che non finisce mai. 
+						Anche qui, andrebbero rivisti in parallelo alcuni passaggi del capitolo del CLG su Immutabilità <choice><abbr>ecc.</abbr><expan>eccetera</expan></choice>, e precisamente (CLG: 105 sgg.).
+					</note>
+					</item>
+					
+				</list>
+		    </div>
+						
+			<listBibl>
+				<bibl xml:id="LMS">
+					<author ref="#EF">
+						<forename>Emanuele</forename>
+						<surname>Fadda</surname>
+					</author>
+					<title>Lingua e mente sociale</title>
+					<pubPlace><placeName>Acireale</placeName></pubPlace>
+					<pubPlace><placeName>Roma</placeName></pubPlace>
+					<publisher>Bonanno Editore</publisher>
+					<date when="2006">2006</date>
+				</bibl>
+
+				<bibl xml:id="CLG">
+					<author ref="#FDS">
+						<forename>Ferdinand</forename>
+						<surname>De Saussure</surname>
+					</author>
+					<author xml:id="TDM">
+						<forename>Tullio</forename>
+						<surname>De Mauro</surname>
+					</author>
+					<title>Corso di linguistica generale</title>
+						<pubPlace><placeName>Bari</placeName></pubPlace>
+					<date when="1976">1976</date>
+					<publisher>Editori Laterza</publisher>
+				</bibl>
+			</listBibl>
+		</back>
+
+
+ 
+	</text>
+
+</TEI>

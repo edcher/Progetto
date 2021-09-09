@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff2e6;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+h1 {
+	text-align: center;
+    font-family: Garamond, serif;
+    font-size: 45px;
+    font-variant: small-caps;
+	color: #4d1919;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 30px;
+	color: #4d1919;
+}
+
+nav {
+	background-color: #4d1919;
+	width: 80%;
+	margin-left: 10%;
+	font-size: 0;
+    border-radius: 5px;
+    border: 1px solid #4d1919;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav ul { 
+  list-style-type: none;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav a {
+	color: white;
+}
+
+nav li a, nav li {
+  cursor: pointer;
+}
+
+#contenitore {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+}
+
+
+#descrizione {
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+#descrizione > * {
+  margin: 0 10px;
+}
+
+#info {
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+.cont {
+	border-top: 1px solid black;
+}
+	
+.contenitore_pagina {
+  
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.contenitore_pagina > * {
+  margin: 0 10px;
+}
+
+
+.trascrizione {
+    width: 150%;   
+    text-align: left;
+}
+
+.immagine img {
+	width: 100%;
+	float: left; 
+    padding-right: 10px;	
+    
+}
+
+
+.note {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: 'Futura';
+  vertical-align: super;
+  font-size: 9pt;
+}
+
+.lista_note .note {
+  margin-right: 8px;
+}
+
+
+.expan, .del, .gap {
+  display: none;
+}
+
+
+footer {
+	background-color: #4d1919;
+	color: white;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	padding: 20px;
+	margin-top: 30px;
+}
