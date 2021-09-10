@@ -65,8 +65,8 @@
                                 <condition resp="#EC"> I fogli sono in buone condizioni fisiche, ma presentano delle macchie di inchiostro.</condition>
 							</supportDesc>
 						</objectDesc>
-						<handDesc>
-								<handNote ref="#FDS">
+						<handDesc hands="1">
+								<handNote>
 										La mano è di <persName ref="#FDS">Ferdinand De Saussure</persName>
 								</handNote>
 						</handDesc>
